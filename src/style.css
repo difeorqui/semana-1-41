@@ -85,7 +85,7 @@ body{
 
 .section-3{
     height: 500px;
-    background-color: coral;
+    background-color: white;
 }
 
 .footer{
@@ -119,7 +119,13 @@ body{
     display: inline-block;
     margin: 5px 4px 0;
     text-align: center;
-    background-color: rgb(255, 177, 148);
+    background-color: white;
+    vertical-align: top;
+}
+
+.photo {
+    width: 150px;
+    border-radius: 25px;
 }
 
 .service-content{
