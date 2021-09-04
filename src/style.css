@@ -89,8 +89,8 @@ body{
 }
 
 .footer{
-    height: 200px;
-    background-color: yellowgreen;
+    height: 450px;
+    background-color: rgb(99, 153, 184);
     bottom: 0px;
     /* position: fixed; */
     /* width: 1200px; */
@@ -101,6 +101,15 @@ body{
     color: #3e3e3e;
     background: white;
     font-weight: bold;
+    text-align: center;
+}
+
+.col-2{
+    width: 50%;
+    height: auto;
+    display: inline-block;
+    padding: 2em;
+    margin-top: 5px;
     text-align: center;
 }
 
@@ -225,4 +234,13 @@ hr{
 .main-menu__link:hover{
     text-decoration: underline;
     font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.container-footer {
+    display: flex;
 }
