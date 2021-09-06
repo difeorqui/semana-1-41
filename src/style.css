@@ -42,8 +42,13 @@ body{
 
 .container-imagen{
     background-image: url('./bg.png');
-    height: 240px;
+    height: 380px;
     /* margin-bottom: 20px; */
+}
+
+.container-imagen > img{
+    width:1200px;
+    height:380px
 }
 
 .nav-list{
